@@ -1,8 +1,13 @@
 #include "miiUnic.dtsi"
 
-&default_transform { // Offset of 6 because the left side has 6 columns
+&default_transform {
     col-offset = <6>;
 };
+
+&five_column_transform {
+    col-offset = <6>;
+};
+
 &kscan0 {
     col-gpios
         = <&pro_micro 14 GPIO_ACTIVE_HIGH>
@@ -12,4 +17,4 @@
         , <&pro_micro 20 GPIO_ACTIVE_HIGH>
         , <&pro_micro 21 GPIO_ACTIVE_HIGH>
         ;
-};        
+};

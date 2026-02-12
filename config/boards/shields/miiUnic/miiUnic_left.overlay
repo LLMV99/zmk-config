@@ -1,6 +1,5 @@
-#include "miiUnic.dtsi" // The shared dtsi file is included in the overlay
+#include "miiUnic.dtsi"
 
-// Label of the kscan node in the dtsi
 &kscan0 {
     col-gpios
         = <&pro_micro 21 GPIO_ACTIVE_HIGH>
