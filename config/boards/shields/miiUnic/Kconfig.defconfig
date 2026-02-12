@@ -1,17 +1,17 @@
-if SHIELD_MIIUNIC_LEFT
+if SHIELD_miiUnic_LEFT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
     default "miiUnic"
 
 config ZMK_SPLIT_ROLE_CENTRAL
-    default "miiUnic"
+    default y
 
 endif
 
-if SHIELD_MY_KEYBOARD_LEFT || SHIELD_MY_KEYBOARD_RIGHT
+if SHIELD_miiUnic_LEFT || SHIELD_miiUnic_RIGHT
 
 config ZMK_SPLIT
-    default "miiUnic"
+    default y
 
 endif
