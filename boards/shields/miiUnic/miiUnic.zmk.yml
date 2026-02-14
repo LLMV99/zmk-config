@@ -2,12 +2,14 @@ file_format: "1"
 id: miiUnic
 name: miiUnic
 type: shield
+url: https://github.com/curbol/temporal
 requires: [pro_micro]
+exposes: [i2c_oled]
 features:
   - keys
-  - encoder
   - display
-  
+  - encoder
+
 siblings:
-  - miiUnic_left
-  - miiUnic_right
+  - temporal_left
+  - temporal_right

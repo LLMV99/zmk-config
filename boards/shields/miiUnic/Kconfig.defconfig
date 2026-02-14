@@ -1,6 +1,8 @@
+# Copyright (c) 2024 Curtis Bollinger
+# SPDX-License-Identifier: MIT
+
 if SHIELD_MIIUNIC_LEFT
 
-# Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
     default "miiUnic"
 
@@ -15,3 +17,4 @@ config ZMK_SPLIT
     default y
 
 endif
+
